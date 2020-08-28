@@ -1,0 +1,14 @@
+def FizzBuzz(x):
+    if x%3==0 and x%5==0:
+        return "FizzBuzz"
+    elif x%3==0:
+        return "Fizz"
+    elif x%5==0:
+        return "Buzz"
+    else:
+        return x
+for i in range(100):
+    if i==0:
+        continue
+    else:
+        print(FizzBuzz(i))
